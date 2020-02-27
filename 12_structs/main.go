@@ -42,9 +42,9 @@ func main() {
 	// Alternative
 	person2 := Person{"Bob", "Johnson", "New York", "m", 30}
 
-	// fmt.Println(person1.firstName)
-	// person1.age++
-	// fmt.Println(person1)
+	fmt.Println(person1.firstName)
+	person1.age++
+	fmt.Println(person1)
 
 	person1.hasBirthday()
 	person1.getMarried("Williams")
